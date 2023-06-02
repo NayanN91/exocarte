@@ -44,7 +44,7 @@ function App() {
     {
       name: "Lucina",
       image: "https://www.pngmart.com/files/13/Lucina-PNG-Background-Image.png",
-      description: "Lucina est une combattante agile et précise dans Super Smash Bros. Ultimate. Elle manie l'épée Parallel Falchion avec habileté, offrant une portée et une vitesse équilibrées. Sa capacité à infliger des dégâts constants en fait un choix solide, et son contre peut renverser le cours d'un combat.",
+      description: "Lucina est une combattante agile et précise. Elle manie l'épée Parallel Falchion avec habileté, offrant une portée et une vitesse équilibrées. Sa capacité à infliger des dégâts constants en fait un choix solide, et son contre peut renverser le cours d'un combat.",
       nameColor: "#9c283c"
     },
     {
