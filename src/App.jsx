@@ -1,8 +1,16 @@
 import SmashCard from "./components/smashcards";
 import "./App.css"
+import Form from "./components/form";
+
+
 function App() {
 
-  return( 
+  return(
+         <div> 
+          <div className="Form">
+           <Form/>
+         </div>
+     
 
     <div className="AppGlobalSmashCards">
   <SmashCard
@@ -51,15 +59,11 @@ image = "https://ssb.wiki.gallery/images/thumb/8/84/Link_SSBU.png/1200px-Link_SS
 description = "Link est un combattant polyvalent. Il utilise une variété d'armes, comme l'épée de légende, l'arc et les bombes, pour attaquer à distance ou au corps-à-corps. Sa panoplie de mouvements emblématiques, tels que le Spin Attack et le Boomerang, en font un adversaire redoutable à toutes les distances."
 />
 
-
-  
-
   </div>
-  )
-};
 
-
-
+</div>
+  );
+  };
 
 export default App;
 
